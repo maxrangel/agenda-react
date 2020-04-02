@@ -1,0 +1,11 @@
+@import '~bootstrap/scss/bootstrap';
+
+.btn-container {
+  margin-top: 25px;
+
+  .btn {
+    width: 100%;
+    border-radius: 20px;
+    border-width: 2px;
+  }
+}

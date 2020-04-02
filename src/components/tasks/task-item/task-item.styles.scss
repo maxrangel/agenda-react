@@ -1,0 +1,24 @@
+.task-container {
+  margin-top: 10px;
+
+  .pending {
+    background: #cfc42c;
+  }
+  .completed {
+    background: #19b12d;
+  }
+
+  .buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+    .button {
+      width: 50%;
+      margin: 0 10px;
+      border-radius: 20px;
+      border-width: 2px;
+    }
+  }
+}
